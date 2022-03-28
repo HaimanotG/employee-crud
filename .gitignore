@@ -1,6 +1,8 @@
 /employee-ui/node_modules
 /server/node_modules
 
+/employee-ui/.git
+
 /.pnp
 .pnp.js
 
