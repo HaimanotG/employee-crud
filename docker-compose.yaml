@@ -11,7 +11,7 @@ services:
     depends_on:
       - app
     build:
-      context: ./employee-ui
+      context: ./client
       args:
         - REACT_APP_API_BASE_URL='https://localhost:4000'
     ports:

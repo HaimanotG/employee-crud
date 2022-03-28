@@ -27,7 +27,7 @@ const getEmployee = async(req, res, next) => {
 
 const addEmployee = async(req, res, next) => {
     try {
-        const { name, dateOfBirth, gender, salary } = req.body
+        const { name, dateOfBirth, gender, salary } = req.body;
 
         const employee = await new Employee({
             name,
