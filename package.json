@@ -1,0 +1,9 @@
+{
+    "name": "employee-crud-operation",
+    "version": "0.1.0",
+    "scripts": {
+        "installClient": "npm install --prefix employee-ui",
+        "installServer": "npm install --prefix server",
+        "installBoth": "installClient && installServer"
+    }
+}
